@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BGIS Event</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .image img {
+            display: block;
+            margin: 20px auto;
+        }
+        .description {
+            margin: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 70%;
+            margin: 20px auto;
+            text-align: justify;
+        }
+        .form-container {
+            margin: 20px auto;
+            padding: 20px;
+            width: 50%;
+            background-color: #f4f4f4;
+            border-radius: 5px;
+        }
+        .form-container input,
+        .form-container button {
+            margin: 10px 0;
+            padding: 10px;
+            width: 100%;
+            font-size: 16px;
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #5ad153;
+        }
+    </style>
+</head>
+<body>
+    <h1>BGIS</h1>
+    <h2>(BATTLE GROUNDS INDIAN SERIES)</h2>
+    <div class="image">
+        <img src="bgis.webp" alt="BGIS Event Banner" height="600" width="1300">
+    </div>
+
+    <div class="description">
+        <p>
+            Welcome to the BGIS (Battle Grounds India Series), an exciting event showcasing the best e-sports talents across the nation. 
+            Join us for an electrifying experience filled with thrilling matches, interactive gaming sessions, and much more. 
+            Whether you’re a player or an enthusiast, this event has something for everyone!
+            <ol type="I">
+                <p>Rule's of conduct:-</p>
+                <li>Mxmxim 5 palyers allowed in a team.</li>
+                <li>One player as subtitute</li>
+                <li>point as per the records</li>
+            </ol>
+            <p>
+                <h2>Point system</h2> 
+                1stplace: 10 points<br>
+                2nd place: 6 points<br>
+                3rd place: 5 points<br>
+                4th place: 4 points<br>
+                5th place: 3 points<br>
+                6th place: 2 points<br>
+                7th place: 1 point<br>
+                8th place: 1 point<br>
+                9th place: 0 points<br>
+                10th place: 0 points<br>
+                Per kill: 1 points<br>
+            </p>
+        </p>
+        <p>
+             Date: 25th February 2025<br>
+             Time: 10:00 AM onwards<br>
+             Venu: phinix Hall, Hyderabad
+        </p>
+    </div>
+
+    <div class="form-container">
+        <h2>Register for BGIS</h2>
+        <form action="submit_registration.php" method="post">
+            <input type="text" name="name" placeholder="Your Full Name" required>
+            <input type="email" name="email" placeholder="Your Email Address" required>
+            <input type="text" name="phone" placeholder="Your Phone Number" required>
+            <input type="text" name="team_name" placeholder="Team Name (if applicable)">
+            <button type="submit">Register Now</button>
+        </form>
+    </div>
+</body>
+</html>
